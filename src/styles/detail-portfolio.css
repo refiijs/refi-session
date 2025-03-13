@@ -1,0 +1,35 @@
+/* Pastikan container bisa di-scroll ke samping */
+.preview-container {
+  overflow-x: auto;
+  cursor: grab;
+  user-select: none;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  white-space: nowrap;
+  display: flex;
+  gap: 16px;
+}
+
+/* Wrapper flex agar gambar tetap dalam satu baris */
+.preview-wrapper {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+}
+
+/* Styling gambar agar rapi */
+.preview-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .grid-cols-1 {
+    grid-template-columns: 1fr;
+  }
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

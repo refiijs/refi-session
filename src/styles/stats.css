@@ -1,0 +1,66 @@
+.stats-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 0; /* Pastikan tidak ada margin tambahan */
+}
+
+/* Container untuk semua stats */
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styling untuk setiap item */
+.stat-item {
+  flex: 1; /* Membuat tiap item fleksibel */
+  min-width: 250px; /* Batas minimum agar tidak terlalu kecil */
+  max-width: 30%; /* Maksimum agar tidak terlalu besar */
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.stat-item:hover {
+  transform: scale(1.1);
+}
+
+/* Styling angka */
+.stat-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #223776;
+}
+
+.stat-number span {
+  font-size: 2rem;
+  color: #385098;
+}
+
+/* Styling teks */
+.stat-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #1c306b;
+}
+
+/* Untuk Tablet: Menampilkan item dalam 2 kolom */
+@media (max-width: 992px) {
+  .stat-item {
+    max-width: 45%; /* Setiap item memenuhi setengah layar */
+  }
+}
+
+/* Untuk Mobile: Menampilkan item dalam 1 kolom */
+@media (max-width: 600px) {
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stat-item {
+    max-width: 90%; /* Setiap item memenuhi layar hampir penuh */
+  }
+}

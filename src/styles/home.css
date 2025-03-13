@@ -1,0 +1,87 @@
+/* Custom Button */
+.btn-custom {
+  background-color: #223776; /* Warna primer Bootstrap */
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #4763b5;
+  color: white;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border: 1px solid black; /* Perbaikan border */
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline:hover {
+  background-color: #223776; /* Warna primer Bootstrap */
+  color: white;
+  border-color: #223776; /* Menyesuaikan border saat hover */
+}
+
+/* Teks Outline untuk "come." */
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 2px #223776; /* Warna outline biru */
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+/* Warna font kustom */
+.text-dark {
+  color: #222 !important;
+}
+
+.text-primary {
+  color: #223776 !important;
+  font-size: 5rem;
+}
+
+.about-me-section,
+.contact-me-section {
+  background: radial-gradient(circle at 30% 30%, #c9dbff70, transparent),
+    radial-gradient(circle at 70% 70%, #ffff, transparent),
+    linear-gradient(45deg, #ffffff, #f5d8efde);
+  /* Gradient warna */
+}
+
+.text-warning {
+  color: #eb9c3f !important; /* Ganti dengan warna yang kamu mau */
+}
+.card {
+  border-radius: 10px;
+}
+
+.card-contact {
+  background: white;
+  border-radius: 10px; /* Biar sudutnya agak melengkung */
+  transition: transform 0.1s ease, box-shadow 0.3s ease; /* Efek transisi halus */
+}
+
+.card-contact:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Tambahkan shadow saat hover */
+  background: #223776;
+  color: white;
+}
+.text-contact {
+  color: #474e54 !important; /* Warna abu-abu sesuai Bootstrap */
+  transition: color 0.3s ease-in-out;
+}
+
+.text-contact:hover {
+  color: #fff !important; /* Warna lebih gelap saat hover */
+}

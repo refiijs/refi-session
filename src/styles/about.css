@@ -1,0 +1,55 @@
+/* Styling khusus untuk halaman About Me */
+.about-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Foto Profil */
+.about-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Bagian Summary */
+.about-text {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+}
+
+/* Section Title */
+.about-section-title {
+  color: #1e3c72;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Item dengan judul dan tahun */
+.about-item {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+/* Tahun atau durasi */
+.about-date {
+  font-weight: normal;
+  color: #777;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .about-content {
+    text-align: center;
+  }
+
+  .about-date {
+    float: none !important;
+    display: block;
+    text-align: center;
+    margin-top: 4px;
+  }
+}
