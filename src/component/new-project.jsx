@@ -1,29 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import greenhavenImg from "../assets/greenhaven.png";
-import ekrafImg from "../assets/web-ekraf.png";
+import portfolioWebItems from "../component/web-items"; // Ambil data dari sini
 
-const projects = [
-  {
-    title: "Ekonomi Kreatif",
-    category: "Website",
-    description:
-      "An innovative platform designed to revolutionize the concert ticketing experience by integrating charitable contributions into every ticket sold.",
-    image: ekrafImg,
-    studyCaseLink: "/portfolio/Ekonomi%20Kreatif",
-    projectLink: "https://ekraf-ta2.web.app/",
-  },
-  {
-    title: "Green Haven",
-    category: "Website",
-    description:
-      "An innovative solution to create green spaces, maximize the use of narrow land in residential areas, and increase public understanding with the help of urban farming implementation.",
-    image: greenhavenImg,
-    studyCaseLink: "/portfolio/GreenHaven",
-    projectLink: "https://green-haven.vercel.app/",
-  },
-];
+const projects = portfolioWebItems.slice(0, 2).map((item) => ({
+  title: item.title,
+  category: item.type,
+  description: item.about,
+  image: item.image,
+  studyCaseLink: `/portfolio/${encodeURIComponent(item.title)}`,
+  projectLink: item.projectLink,
+}));
 
 const NewProjects = () => {
   const navigate = useNavigate();
@@ -32,12 +19,12 @@ const NewProjects = () => {
       <div className="col-lg-10 mx-auto">
         <h3 className="text-warning">Recent Projects</h3>
         <h1 className="fw-bold text-dark">Explore My Portfolio</h1>
-        <p className="text-muted py-4">
+        <p className="text-muted py-2">
           Designing visual experiences, providing solutions, and ready to
           collaborate
         </p>
 
-        <div className="container mt-5">
+        <div className="container mt-3">
           <div className="row">
             {projects.map((project, index) => (
               <div key={index} className="py-4 w-100">
@@ -57,14 +44,14 @@ const NewProjects = () => {
                           {project.title}
                         </h5>
                         <p className="card-text text-muted mt-4">
-                          {project.description}
+                          {project.description.length > 200
+                            ? project.description.slice(0, 200) + "..."
+                            : project.description}
                         </p>
                         <div className="d-flex gap-2 mt-3">
                           <button
                             className="btn btn-custom btn-lg"
-                            onClick={() =>
-                              (window.location.href = project.studyCaseLink)
-                            }
+                            onClick={() => navigate(project.studyCaseLink)}
                           >
                             Study Case
                           </button>
@@ -88,7 +75,7 @@ const NewProjects = () => {
         </div>
 
         <button
-          className="btn btn-custom btn-lg mt-5 mb-4"
+          className="btn btn-custom btn-lg mt-4 mb-4"
           onClick={() => navigate("/portfolio")}
         >
           View more projects

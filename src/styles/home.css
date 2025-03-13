@@ -7,7 +7,6 @@
   padding: 10px 24px;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   border: none;
 }
 
@@ -75,13 +74,14 @@
 .card-contact:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Tambahkan shadow saat hover */
   background: #223776;
-  color: white;
+  color: white !important;
 }
 .text-contact {
   color: #474e54 !important; /* Warna abu-abu sesuai Bootstrap */
   transition: color 0.3s ease-in-out;
 }
-
-.text-contact:hover {
-  color: #fff !important; /* Warna lebih gelap saat hover */
+.card-contact:hover i,
+.card-contact:hover h5,
+.card-contact:hover p {
+  color: white !important; /* Pastikan semua elemen teks berubah */
 }

@@ -54,11 +54,11 @@ const Home = () => {
             </h2>
             <p className="text-muted mt-5">
               My name is <strong>Refi Junitasari</strong>, a recent Engineering
-              graduate with a strong passion for UI/UX design and web
-              development. Combining my skills in design and development, I
-              strive to create digital solutions that are not only functional
-              but also visually appealing and user-friendly, ensuring a seamless
-              and engaging user experience.
+              graduate with a strong passion for<strong> UI/UX Design </strong>{" "}
+              and <strong>Web Development</strong>. Combining my skills in
+              design and development, I strive to create digital solutions that
+              are not only functional but also visually appealing and
+              user-friendly, ensuring a seamless and engaging user experience.
             </p>
             <p className="text-muted mt-3">
               I am a motivated and detail-oriented individual who is always
@@ -67,7 +67,7 @@ const Home = () => {
               UI/UX design or web development, feel free to connect with me.
             </p>
             <a
-              href="/path-to-your-cv.pdf"
+              href="https://drive.google.com/file/d/12VZfoZ_CP1zl-aJcwR6E0TIRXUWv-PT8/view?usp=drive_link"
               className="btn btn-custom btn-lg mt-5 mb-4 me-4"
               target="_blank"
               rel="noopener noreferrer"

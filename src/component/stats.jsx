@@ -22,7 +22,7 @@ const StatsSection = () => {
         </div>
         <div className="stat-item">
           <h2 className="stat-number">
-            2<span>+</span>
+            3<span>+</span>
           </h2>
           <p className="stat-text">Licences & Certifications</p>
         </div>

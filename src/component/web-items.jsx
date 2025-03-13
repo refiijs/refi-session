@@ -5,7 +5,7 @@ import ecoprintImg from "../assets/web-ecoprint.png";
 
 const portfolioWebItems = [
   {
-    type: "Web",
+    type: "Website",
     title: "Ekonomi Kreatif",
     description: "A web platform for promoting the creative economy.",
     image: ekrafImg,
@@ -23,7 +23,7 @@ const portfolioWebItems = [
     ],
   },
   {
-    type: "Web",
+    type: "Website",
     title: "Beasiswa Platform",
     description: "A student registration platform for scholarship programs.",
     image: beasiswaImg,
@@ -41,7 +41,7 @@ const portfolioWebItems = [
     ],
   },
   {
-    type: "Web",
+    type: "Website",
     title: "GreenHaven",
     description: "A sustainability-focused website.",
     image: greenhavenImg,
@@ -60,7 +60,7 @@ const portfolioWebItems = [
   },
 
   {
-    type: "Web",
+    type: "Website",
     title: "Ecoprint",
     description: "A web project showcasing eco-friendly printing methods.",
     image: ecoprintImg,
