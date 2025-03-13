@@ -20,7 +20,7 @@ import portfolioWebItems from "./component/web-items";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/refi-session">
       <NavigationBar />
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
