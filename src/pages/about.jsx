@@ -36,7 +36,7 @@ const AboutMe = () => {
       <div className="about-section mt-4">
         <h5 className="about-section-title">Education</h5>
         <p className="about-item">
-          Institut Teknologi Telkom Purwokerto
+          Telkom University - Kampus Purwokerto
           <span className="about-date">2021 - 2025</span>
         </p>
         <p className="about-text">Fresh Graduate of Informatics Engineering</p>
