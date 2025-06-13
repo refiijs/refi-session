@@ -82,7 +82,18 @@ const AboutMe = () => {
         </p>
       </div>
       <div className="bout-section mt-4">
-        <h5 className="about-section-title">Honors & Awards</h5>
+        <h5 className="about-section-title">Awards & Publications</h5>
+
+        <div className="about-section mt-4">
+          <p className="about-item">
+            Jurnal Pendidikan dan Teknologi Indonesia : SINTA 3
+            <span className="about-date">2024</span>
+          </p>
+          <p className="about-text">
+            Implementasi Design Thinking pada Desain UI/UX Aplikasi Donasi
+            Berbasis Konser Amal untuk Meningkatkan Partisipasi Publik
+          </p>
+        </div>
 
         <div className="about-section mt-4">
           <p className="about-item">

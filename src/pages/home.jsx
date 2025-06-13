@@ -67,7 +67,7 @@ const Home = () => {
               UI/UX design or web development, feel free to connect with me.
             </p>
             <a
-              href="https://drive.google.com/file/d/12VZfoZ_CP1zl-aJcwR6E0TIRXUWv-PT8/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1QnNAAmu5kXvBQjpq2LR2mWo4Bu9AK1k4/view?usp=drive_link"
               className="btn btn-custom btn-lg mt-5 mb-4 me-4"
               target="_blank"
               rel="noopener noreferrer"
@@ -103,16 +103,14 @@ const Home = () => {
             <div className="row justify-content-center">
               <div className="col-md-4 col-sm-6 mb-3">
                 <a
-                  href="mailto:refijunita3@gmail.com"
+                  href="mailto:refijuni3@gmail.com"
                   className="text-decoration-none"
                 >
                   <div className="card shadow-sm border-0 p-6">
                     <div className="card-contact text-center">
                       <i className="bi bi-envelope-fill text-primary fs-2"></i>
                       <h5 className="fw-bold mt-2">Email</h5>
-                      <p className="text-contact small">
-                        refijunita3@gmail.com
-                      </p>
+                      <p className="text-contact small">refijuni3@gmail.com</p>
                     </div>
                   </div>
                 </a>
@@ -137,7 +135,7 @@ const Home = () => {
               </div>
 
               {/* WhatsApp */}
-              <div className="col-md-4 col-sm-6 mb-3">
+              {/* <div className="col-md-4 col-sm-6 mb-3">
                 <a
                   href="https://wa.me/6285714171826"
                   target="_blank"
@@ -152,7 +150,7 @@ const Home = () => {
                     </div>
                   </div>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ const Footer = () => {
         </p>
         <div className="social-icons mb-2">
           <a
-            href="mailto:refijunita3@gmail.com"
+            href="mailto:refijuni3@gmail.com"
             className="me-3 text-light fs-5"
             target="_blank"
             rel="noopener noreferrer"

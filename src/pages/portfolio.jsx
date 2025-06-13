@@ -58,6 +58,19 @@ const Portfolio = () => {
       </div>
       <PortfolioGrid category={activeTab} />
 
+      {activeTab === "UIUX" && (
+        <div className="mt-2 mb-5">
+          <a
+            href="https://drive.google.com/file/d/1c5l56weM5xk8HqYWxXzR9StVge5Fm1Bc/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-custom fw-semibold"
+          >
+            View More UI/UX Design
+          </a>
+        </div>
+      )}
+
       {activeTab === "Illustration" && (
         <div className="mt-2 mb-5">
           <a
