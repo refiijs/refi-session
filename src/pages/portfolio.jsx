@@ -74,7 +74,7 @@ const Portfolio = () => {
       {activeTab === "Illustration" && (
         <div className="mt-2 mb-5">
           <a
-            href="https://drive.google.com/file/d/1voOfpJ70hetGt-Qs-S1UEn0CDoNOJTzK/view?usp=drive_link"
+            href="https://drive.google.com/file/d/177nEdrTNdlwtGK4WzHWSahkW-EetNkGe/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-custom fw-semibold"
