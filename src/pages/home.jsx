@@ -54,20 +54,22 @@ const Home = () => {
             </h2>
             <p className="text-muted mt-5">
               My name is <strong>Refi Junitasari</strong>, a recent Engineering
-              graduate with a strong passion for<strong> UI/UX Design </strong>{" "}
-              and <strong>Web Development</strong>. Combining my skills in
-              design and development, I strive to create digital solutions that
-              are not only functional but also visually appealing and
-              user-friendly, ensuring a seamless and engaging user experience.
+              graduate with a strong passion for<strong> UI/UX Design, </strong>{" "}
+              <strong>Web Development</strong> and{" "}
+              <strong>Graphic Design</strong>. By combining skills in design and
+              development, I strive to create digital solutions that are
+              functional, visually appealing, and user-friendly, ensuring a
+              seamless and engaging user experience.
             </p>
             <p className="text-muted mt-3">
               I am a motivated and detail-oriented individual who is always
-              eager to learn and take on new challenges. If you're looking for a
-              dedicated professional with a strong work ethic and a passion for
-              UI/UX design or web development, feel free to connect with me.
+              eager to learn and take on new challenges. With a strong work
+              ethic and creativity, I am dedicated to delivering impactful
+              results in UI/UX design, web development, and graphic design. Feel
+              free to connect with me.
             </p>
             <a
-              href="https://drive.google.com/file/d/1QnNAAmu5kXvBQjpq2LR2mWo4Bu9AK1k4/view?usp=drive_link"
+              href="https://drive.google.com/file/d/13RCf_mJc_SvdeBSANbwtQbr9qWLvb5UZ/view?usp=sharing"
               className="btn btn-custom btn-lg mt-5 mb-4 me-4"
               target="_blank"
               rel="noopener noreferrer"

@@ -25,9 +25,13 @@ const AboutMe = () => {
           <h5 className="about-section-title ms-4">Summary</h5>
           <p className="about-text ms-4">
             <strong>Hi, I'm Refi Junitasari</strong>
-            <br />I am a fresh graduate in Informatics Engineering from Telkom
-            University Purwokerto with a strong interest in design, software
-            development, and data processing.
+            <br />
+            Fresh graduate in Informatics Engineering from Telkom University
+            Purwokerto with interests in design, software development, and data
+            processing. Experienced in UI/UX, graphic design, and front-end
+            development, and active in organizations with administrative
+            responsibilities that strengthened skills in coordination and
+            documentation.
           </p>
         </div>
       </div>
@@ -36,11 +40,13 @@ const AboutMe = () => {
       <div className="about-section mt-4">
         <h5 className="about-section-title">Education</h5>
         <p className="about-item">
-          Telkom University - Kampus Purwokerto
+          Telkom University - Bachelor of Informatics Engineering
           <span className="about-date">2021 - 2025</span>
         </p>
-        <p className="about-text">Fresh Graduate of Informatics Engineering</p>
-        <p className="about-text">GPA: 3.97/4.00</p>
+        <p className="about-text">
+          Graduated with GPA 3.97 / 4.00 in 3.5 years
+        </p>
+        <p className="about-text">Awarded Second Best Graduate</p>
       </div>
 
       {/* Organizational Experience */}

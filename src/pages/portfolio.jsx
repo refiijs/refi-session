@@ -48,7 +48,7 @@ const Portfolio = () => {
                 }`}
                 onClick={() => setActiveTab("Illustration")}
               >
-                Illustration
+                Design
               </button>
             </div>
           </div>
@@ -74,12 +74,12 @@ const Portfolio = () => {
       {activeTab === "Illustration" && (
         <div className="mt-2 mb-5">
           <a
-            href="https://drive.google.com/file/d/177nEdrTNdlwtGK4WzHWSahkW-EetNkGe/view?usp=sharing"
+            href="https://bit.ly/portfoliodesignbyrefi"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-custom fw-semibold"
           >
-            View More Illustrations
+            View More Designs
           </a>
         </div>
       )}

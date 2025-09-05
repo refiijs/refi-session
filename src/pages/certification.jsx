@@ -4,6 +4,12 @@ import "../styles/certification.css";
 const certifications = [
   {
     date: "December 2024",
+    title: "Publikasi Jurnal - SINTA 3",
+    issuer: "JPTI - Jurnal Pendidikan dan Teknologi Indonesia",
+    file: "https://drive.google.com/file/d/134HR8rcUvky0vSSR9dvo4A9ujJwQAgnr/view?usp=sharingg",
+  },
+  {
+    date: "December 2024",
     title: "Junior Web Developer",
     issuer: "BNSP - Badan Nasional Sertifikasi Profesi",
     file: "https://drive.google.com/file/d/1CfduMt7pH1KEg9wehDijhdjlk0fYyH9U/view?usp=sharing",
@@ -28,11 +34,12 @@ const Certifications = () => {
       <div className="container">
         <div className="col-lg-10 mx-auto">
           <h2 className="display-5 fw-bold text-dark mt-2">
-            Licenses and Cerifications
+            Certifications & Publications
           </h2>
 
           <p className="text-muted mt-3 mb-5">
-            A collection of my professional licenses and certifications
+            List of professional certifications and journal publications that
+            demonstrate academic contributions and expertise in the field
           </p>
 
           <div className="timeline">
