@@ -15,6 +15,12 @@ const certifications = [
     file: "https://drive.google.com/file/d/1CfduMt7pH1KEg9wehDijhdjlk0fYyH9U/view?usp=sharing",
   },
   {
+    date: "December 2023",
+    title: "Front-End Web And Back-End : Dicoding Cycle 5",
+    issuer: "Certified Internship and Independent Study Program (MSIB)",
+    file: "https://drive.google.com/file/d/1ih5qRwVgxZwY9sfl9Cknvo1qjiw6d9mT/view?usp=sharing",
+  },
+  {
     date: "November 2023",
     title: "Front-End Web Developer Expert",
     issuer: "Dicoding Academy",
